@@ -30,6 +30,13 @@
             <scope>test</scope>
         </dependency>
 
+        <!-- Ekran görüntüsü için -->
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>2.11.0</version>
+        </dependency>
+
         <!-- Log4j API ve Core (Loglama için) -->
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>

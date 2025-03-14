@@ -1,9 +1,6 @@
-import org.testng.annotations.Test;
+import Utility.GWD;
 
-public class Tests {
-    @Test
-    public void Deneme(){
+public class Tests extends GWD {
 
-    }
 
 }
