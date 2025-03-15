@@ -7,13 +7,10 @@ import org.openqa.selenium.support.PageFactory;
 public class Elements {
     public Elements(){PageFactory.initElements(GWD.getDriver(), this);}
 
-    @FindBy(xpath = "")
-    private WebElement login;
+    @FindBy(xpath = "//img[@src='/images/Toolsqa.jpg']")
+    public WebElement ToolsQA;
+    @FindBy(xpath = "//div[@class='card-body']/h5[text()='Elements']']")
+    public WebElement SecElements;
 
-    public WebElement getWebElement(String string){
-        switch (string){
-            case "login"                          :return this.login;
-        }
-        return null;
-    }
+
 }

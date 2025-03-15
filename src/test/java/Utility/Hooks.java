@@ -52,4 +52,5 @@ public class Hooks {
         // WebDriver'ı kapat
         quitDriver();
     }
+
 }
